@@ -1,0 +1,45 @@
+
+.site-header {
+  font-family: Lucida Console;
+  background-color: #e3f2fd;
+}
+
+.font {
+  font-family: Lucida Console;
+}
+
+.hero-image {
+  position: center;
+
+}
+
+.footer {
+  background-color: #e3f2fd;
+  width: auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.BeforeScroll {
+  height: 100px;
+  width: 100%;
+  display: none;
+}
+
+.AfterScroll {
+  animation: fadeEffect 3s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
