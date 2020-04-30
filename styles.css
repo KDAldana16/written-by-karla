@@ -1,13 +1,18 @@
 
 .site-header {
   font-family: Lucida Console;
-  background-color: #e3f2fd;
+  background-color: transparent;
+  border-color: #d3d3d3;
+  opacity: 1;
 }
 
 .font {
   font-family: Lucida Console;
 }
 
+.background {
+  background-color: #e3f2fd;
+}
 .hero-image {
   position: center;
 
@@ -18,4 +23,16 @@
   width: auto;
   padding: 0 15px;
   text-align: center;
+}
+
+#AboutMe {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+}
+
+.book-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
 }
