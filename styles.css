@@ -1,9 +1,8 @@
 
 .site-header {
   font-family: Lucida Console;
-  background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
+  background-color: #e3f2fd; opacity: 0.8; filter: alpha(opacity=50);
   border-color: #d3d3d3;
-  opacity: 3;
 }
 
 .font {
